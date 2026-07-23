@@ -1,0 +1,44 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/anki
+notes: >-
+  Anki, Inc. (consumer robotics; Cozmo, Vector, Overdrive) ceased operations in
+  May 2019. The client SDKs below are first-party libraries published by Anki to
+  program its robots over a local connection (computer vision, navigation, AI).
+  They remain available on PyPI and GitHub but are no longer maintained; the
+  historical docs host developer.anki.com no longer resolves.
+packages:
+  - language: python
+    registry: pypi
+    name: cozmo
+    url: https://pypi.org/project/cozmo/
+    install: pip install cozmo
+    official: true
+    latest: 1.4.10
+    released: '2019-03-12'
+    source_code: https://github.com/anki/cozmo-python-sdk
+    description: Anki Cozmo Python SDK — program the Cozmo robot's vision, animation, and behaviors.
+  - language: python
+    registry: pypi
+    name: anki_vector
+    url: https://pypi.org/project/anki-vector/
+    install: pip install anki_vector
+    official: true
+    latest: 0.6.0
+    released: '2019-05-01'
+    source_code: https://github.com/anki/vector-python-sdk
+    description: Anki Vector Python SDK — direct access to Vector's sensors, computer vision, mapping, and navigation.
+  - language: csharp
+    registry: github
+    name: cozmo-csharp-sdk
+    url: https://github.com/anki/cozmo-csharp-sdk
+    install: git clone https://github.com/anki/cozmo-csharp-sdk
+    official: true
+    description: Anki Cozmo C# SDK (source distribution; no package-registry release).
+  - language: c
+    registry: github
+    name: drive-sdk
+    url: https://github.com/anki/drive-sdk
+    install: git clone https://github.com/anki/drive-sdk
+    official: true
+    description: Anki Drive / Overdrive SDK — BLE protocol library for the robotic racing vehicles.

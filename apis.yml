@@ -1,7 +1,28 @@
 aid: anki
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anki.png
 name: Anki
-description: Anki is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Anki, Inc. was a consumer robotics and artificial-intelligence company based in San
+  Francisco, founded in 2010 and backed by Andreessen Horowitz, Index Ventures, and
+  J.P. Morgan. It was known for the Cozmo and Vector companion robots and the Anki
+  Drive / Overdrive robotic racing system, which combined computer vision, on-device
+  AI, and mapping/navigation. Anki debuted at Apple's WWDC in 2013, shipped Cozmo in
+  2016 and Vector in 2018, and published first-party Python and C# SDKs so developers
+  could program the robots over a local connection. Anki ceased operations in May 2019
+  and its assets were later acquired by Digital Dream Labs. This profile was surfaced
+  as a portfolio company of a16z and enriched by the API Evangelist pipeline; the
+  robot SDKs remain the company's public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/anki/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,37 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Ceased operations May 2019; assets acquired by Digital Dream Labs.
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Robotics
+- Artificial Intelligence
+- Consumer Electronics
+- Computer Vision
+- SDK
+- Python
+- Education
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/anki
+- type: Packages
+  url: packages/anki-packages.yml
+- type: SDKs
+  url: packages/anki-packages.yml
+- type: LLMsTxt
+  url: llms/anki-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
