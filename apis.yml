@@ -42,7 +42,7 @@ x-status: defunct
 x-status-note: Ceased operations May 2019; assets acquired by Digital Dream Labs.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Robotics
@@ -52,6 +52,7 @@ tags:
 - SDK
 - Python
 - Education
+- Defunct
 tags_raw:
 - Company
 - Robotics
@@ -61,6 +62,7 @@ tags_raw:
 - SDK
 - Python
 - Education
+- Defunct
 apis: []
 common:
 - type: GitHubOrganization
