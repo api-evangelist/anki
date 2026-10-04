@@ -48,7 +48,7 @@ tags:
 - Robotics
 - Artificial Intelligence
 - Consumer Electronics
-- Computer-Vision
+- Computer Vision
 - SDK
 - Python
 - Education
@@ -63,6 +63,7 @@ tags_raw:
 - Python
 - Education
 - Defunct
+- Computer-Vision
 apis: []
 common:
 - type: GitHubOrganization
